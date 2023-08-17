@@ -26,13 +26,17 @@ li{
   padding: 10px;
 	
 }
+li:nth-child(odd) {
+  background-color: white;
+}
+
 li:first-child{
 	font-size:22px;
-	background:white;
+	
 }
 li:last-child{
 		font-size:22px;
-		background:white;
+	
 }
 li:nth-child(3){
 	background-color:pink;
